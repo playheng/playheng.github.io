@@ -1,12 +1,12 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: playheng/playheng
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: playheng/playheng
+name: Yuan-Heng Wang
 title: Yuan-Heng Wang (王元亨）
 email: "&#121;&#104;&#119;&#97;&#110;&#103;&#48;&#55;&#51;&#48;&#64;&#103;&#109;&#105;&#108;&#46;&#99;&#111;&#109;"
 # email_title: Email (Email title override)
