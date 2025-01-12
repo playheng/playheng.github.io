@@ -6,15 +6,15 @@ repository: playheng/playheng
 version: 2
 
 # Personal info
-name: Yuan-Heng Wang
-title: Yuan-Heng Wang (王元亨）
-email: "&#121;&#104;&#119;&#97;&#110;&#103;&#48;&#55;&#51;&#48;&#64;&#103;&#109;&#105;&#108;&#46;&#99;&#111;&#109;"
+name: Yuan-Heng Wang (王元亨）
+title: Postdoctoral Research Fellow at Berkeley Lab 
+email: yhwang0730@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
-description: Postdoctoral Research Fellow at Berkeley Lab
+#description: Postdoctoral Research Fellow at Berkeley Lab
 
 # Dark Mode (true/false/never)
 darkmode: false
