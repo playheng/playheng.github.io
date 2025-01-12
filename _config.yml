@@ -1,0 +1,328 @@
+# Site
+repository: gauchm/gauchm
+#favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+# Personal info
+name: Martin Gauch
+title: Martin Gauch
+email: "&#103;&#97;&#117;&#99;&#104;&#64;&#109;&#108;&#46;&#106;&#107;&#117;&#46;&#97;&#116;"
+# email_title: Email (Email title override)
+# phone: 
+# phone_title: Phone (Phone title override)
+# website: gauchm.github.io
+# website_title: Web (Website title override)
+description: Researcher at Google
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: martingauch
+mastodon_username: gauchm
+mastodon_servername: sigmoid.social
+github_username:  gauchm
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+googlescholar_username: iVbyiMcAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: 
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Martin. I work on the [Flood Forecasting Initiative at Google Research](https://sites.research.google/floodforecasting/) in Switzerland. Previously, I was a PhD student in [Sepp Hochreiter's group](https://ml-jku.github.io/) at Johannes Kepler University, Linz, Austria, a graduate computer science student at the [University of Waterloo](https://uwaterloo.ca), Canada, and an undergraduate student at [Karlsruhe Institute of Technology](https://kit.edu), Germany.
+  
+  My research is at the intersection of machine learning and hydrology. We focus on developing data-driven deep learning techniques for streamflow prediction. Visit our research blog at [neuralhydrology.github.io](https://neuralhydrology.github.io/) for more information on current and recent projects.
+
+content:
+  - title: Key Publications
+    layout: list # Type of content section (list/text)
+    description: For a full list of publications, refer to my [Google Scholar profile](https://scholar.google.com/citations?user=iVbyiMcAAAAJ).
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: "2024"
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          **[HESS Opinions: Never train a Long Short-Term Memory (LSTM) network on a single basin](https://doi.org/10.5194/hess-28-4187-2024)** \\
+          Frederik Kratzert, Martin Gauch, Daniel Klotz, and Grey Nearing. \\
+          _Hydrology and Earth System Sciences_, September 2024.
+
+          **[Global Prediction of Extreme Floods in Ungauged Watersheds](https://www.nature.com/articles/s41586-024-07145-1)** \\
+          Grey Nearing, Deborah Cohen, Vusumuzi Dube, Martin Gauch, Oren Gilon, Shaun Harrigan, Avinatan Hassidim, Daniel Klotz, Frederik Kratzert, Asher Metzger, Sella Nevo, Florian Pappenberger, Christel Prudhomme, Guy Shalev, Shlomo Shenzis, Tadele Tekalign, Dana Weitzner, and Yossi Matias. \\
+          _Nature_, March 2024.
+  
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: "2023"
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          **[Conformal Prediction for Time Series with Modern Hopfield Networks](https://arxiv.org/abs/2303.12783)** \\
+          Andreas Auer, Martin Gauch, Daniel Klotz, and Sepp Hochreiter. \\
+          _Advances in Neural Information Processing Systems_, December 2023.
+
+          **[In Defense of Metrics: Metrics Sufficiently Encode Typical Human Preferences Regarding Hydrological Model Performance](https://doi.org/10.1029/2022WR033918)** \\
+          Martin Gauch, Frederik Kratzert, Oren Gilon, Hoshin Gupta, Juliane Mai, Grey Nearing, Bryan Tolson, Sepp Hochreiter, and Daniel Klotz. \\
+          _Water Resources Research_, May 2023.
+
+      - layout: left
+        border: weak
+        title: "2022"
+        description: | # this will include new lines to allow paragraphs
+          **[Few-Shot Learning by Dimensionality Reduction in Gradient Space](https://proceedings.mlr.press/v199/gauch22a.html)** \\
+          Martin Gauch, Maximilian Beck, Thomas Adler, Dmytro Kotsur, Stefan Fiel, Hamid Eghbal-zadeh, Johannes Brandstetter, Johannes Kofler, Markus Holzleitner, Werner Zellinger, Daniel Klotz, Sepp Hochreiter, and Sebastian Lehner. \\
+          _Proceedings of The 1st Conference on Lifelong Learning Agents (CoLLAs)_, August 2022, Montréal, Canada.
+
+          **[The Great Lakes Runoff Intercomparison Project Phase 4: The Great Lakes (GRIP-GL)](https://doi.org/10.5194/hess-26-3537-2022)** \\
+          Juliane Mai, Hongren Shen, Bryan Tolson, Étienne Gaborit, Richard Arsenault, James R. Craig, Vincent Fortin, Lauren M. Fry, Martin Gauch, Daniel Klotz, Frederik Kratzert, Nicole O'Brien, Daniel G. Princz, Sinan Rasiya Koya, Tirthankar Roy, Frank Seglenieks, Narayan K. Shrestha, André G. T. Temgoua, Vincent Vionnet, and Jonathan W. Waddell. \\
+          _Hydrology and Earth System Sciences_, July 2022.
+
+          **[NeuralHydrology --- A Python Library for Deep Learning Research in Hydrology](https://doi.org/10.21105/joss.04050)** \\
+          Frederik Kratzert, Martin Gauch, Grey Nearing, and Daniel Klotz. \\
+          _Journal of Open Source Software_, 7 (71), 4050, March 2022.
+
+      - layout: left
+        border: weak 
+        title: "2021"
+        description: | # this will include new lines to allow paragraphs
+          **[Niederschlags-Abfluss-Modellierung mit Long Short-Term Memory (LSTM)](https://doi.org/10.1007/s00506-021-00767-z)** (German article) \\
+          Frederik Kratzert, Martin Gauch, Grey Nearing, Sepp Hochreiter, and Daniel Klotz. \\
+          _Österreichische Wasser- und Abfallwirtschaft_, May 2021.
+
+          **[Multi-Timescale LSTM for Rainfall&ndash;Runoff Forecasting](https://doi.org/10.5194/egusphere-egu21-9714)** \\
+          Martin Gauch, Frederik Kratzert, Grey Nearing, Jimmy Lin, Sepp Hochreiter, Johannes Brandstetter, and Daniel Klotz. \\
+          _EGU General Assembly_, April 2021, virtual event.
+
+          **[Rainfall&ndash;Runoff Prediction at Multiple Timescales with a Single Long Short-Term Memory Network](https://doi.org/10.5194/hess-25-2045-2021)** \\
+          Martin Gauch, Frederik Kratzert, Daniel Klotz, Grey Nearing, Jimmy Lin, and Sepp Hochreiter. \\
+          _Hydrology and Earth System Sciences_, April 2021 (preprint published in October 2020).
+
+          **[The Proper Care and Feeding of CAMELS: How Limited Training Data Affects Streamflow Prediction](https://www.sciencedirect.com/science/article/pii/S136481522030983X)** \\
+          [(open-access version published on arXiv, November 2019)](https://arxiv.org/abs/1911.07249) \\
+          Martin Gauch, Juliane Mai, and Jimmy Lin. \\
+          _Environmental Modelling & Software_, Volume 135, 2021, 104926, ISSN 1364-8152.
+
+      - layout: left
+        title: "2020"
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          **[A Machine Learner's Guide to Streamflow Prediction](https://cs.uwaterloo.ca/~jimmylin/publications/Gauch_etal_NeurIPS2020workshop.pdf)** (revised version of June 2020 arXiv paper) \\
+          Martin Gauch, Daniel Klotz, Frederik Kratzert, Grey Nearing, Sepp Hochreiter, and Jimmy Lin. \\
+          _NeurIPS 2020 Workshop on AI for Earth Sciences_, December 2020, virtual event.
+          
+          **[A Data Scientist's Guide to Streamflow Prediction](https://arxiv.org/abs/2006.12975)** \\
+          Martin Gauch and Jimmy Lin. \\
+          _arXiv:2006.12975_, June 2020.
+          
+          **[An Open-Source Interface to the Canadian Surface Prediction Archive](https://cs.uwaterloo.ca/~jimmylin/publications/Gauch_etal_JCDL2020.pdf)** \\
+          Martin Gauch, James Bai, Juliane Mai, and Jimmy Lin. \\
+          _Proceedings of the 20th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL 2020)_, August 2020, virtual event.
+          
+          **[Machine Learning for Streamflow Prediction](https://hdl.handle.net/10012/15758)** \\
+          Martin Gauch. \\
+          _Master's Thesis_, April 2020, Waterloo, Canada.
+
+      - layout: left
+        title: "2019"
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          **[Streamflow Prediction with Limited Spatially-Distributed Input Data](https://www.climatechange.ai/CameraReadySubmissions%202-119/16/CameraReadySubmission/NeurIPS_2019_Climate_Change_AI_Workshop.pdf)** \\
+          Martin Gauch, Shervan Gharari, Juliane Mai, and Jimmy Lin. \\
+          _Proceedings of the NeurIPS 2019 Workshop on Tackling Climate Change with Machine Learning_, December 2019, Vancouver, Canada.
+          
+          **[The Runoff Model-Intercomparison Project Over Lake Erie and the Great Lakes](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/538080)** \\
+          Juliane Mai, Bryan Tolson, Hongren Shen, Étienne Gaborit, Vincent Fortin, Milena Dimitrijevic, Nicolas Gasset, Dorothy Durnford, Young Lan Shin, Tricia Anne Stadnyk, Oyémonbadé Hervé Rodrigue Awoye, Lauren M. Fry, Emily A. Bradley, Tim Hunter, Andrew Gronewold, Joeseph Smith, Lacey Mason, Laura Read, Katelyn FitzGerald, Kevin Michael Sampson, Alan F. Hamlet, Frank Seglenieks, André G. T. Temgoua, Shervan Gharari, Saman Razavi, Amin Haghnegahdar, Mohamed Elshamy, Daniel G. Princz, Alain Pietroniro, Xiaojing Ni, Yongping Yuan, Mohammad Reza Najafi, Melika Rahimimovaghar, Martin Gauch, Jimmy Lin, and Raphael Tang. \\
+          _Abstracts of the 2019 AGU Fall Meeting_, December 2019, San Francisco, USA.
+          
+          **[Machine Learning for Streamflow Prediction: Current Status and Future Prospects](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/516700)** \\
+          Martin Gauch, Raphael Tang, Juliane Mai, Bryan Tolson, Shervan Gharari, and Jimmy Lin. \\
+          _Abstracts of the 2019 AGU Fall Meeting_, December 2019, San Francisco, USA.
+          
+          **[The Cuizinart: Slice and Dice Your Environmental Datasets](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/563285)** \\
+          Jimmy Lin, Martin Gauch, Yixin Wang, Alexander Weatherhead, Kaisong Huang, Bhaleka D. Persaud, and Juliane Mai. \\
+          _Abstracts of the 2019 AGU Fall Meeting_, December 2019, San Francisco, USA.
+          
+          **[The Proper Care and Feeding of CAMELS: How Limited Training Data Affects Streamflow Prediction](https://arxiv.org/abs/1911.07249)** \\
+          [(now published in _Environmental Modelling & Software_, Volume 135, 2021)](https://www.sciencedirect.com/science/article/pii/S136481522030983X) \\
+          Martin Gauch, Juliane Mai, and Jimmy Lin. \\
+          _arXiv:1911.07249_, November 2019.
+          
+          **[Data-Driven vs. Physically-Based Streamflow Prediction Models](https://cs.uwaterloo.ca/~jimmylin/publications/Gauch_etal_CI2019.pdf)** \\
+          Martin Gauch, Juliane Mai, Shervan Gharari, and Jimmy Lin. \\
+          _Proceedings of the 9th International Workshop on Climate Informatics_, October 2019, Paris, France.
+
+      - layout: left
+        title: "2018"
+        description: | # this will include new lines to allow paragraphs
+          **[Towards Simulation-Data Science&mdash;A Case Study on Material Failures](https://ieeexplore.ieee.org/abstract/document/8631397)** \\
+          Holger Trittenbach, Martin Gauch, Klemens Böhm, and Katrin Schulz. \\
+          _2018 IEEE 5th International Conference on Data Science and Advanced Analytics_, October 2018, Turin, Italy.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Johannes Kepler University Linz
+        sub_title: Machine Learning <br/> (PhD student)
+        caption: January 2021 &ndash; July 2023
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          At the Institute for Machine Learning, my research was at the intersection of machine learning and hydrology under the supervision of Sepp Hochreiter.
+          We have developed data-driven deep learning techniques for environmental modeling.
+          Visit our research blog at [neuralhydrology.github.io](https://neuralhydrology.github.io/) for more information on recent projects.
+      - layout: left
+        title: University of Waterloo & Karlsruhe Institute of Technology
+        sub_title: Computer Science <br/> (Master's student)
+        caption: September 2017 &ndash; April 2020
+        # quote:
+        description: | # this will include new lines to allow paragraphs
+          After two exchange terms at the University of Waterloo, I decided to continue pursuing my Master's in Canada. This allowed me to do a lot more research throughout my degree. \\
+          Supervised by Jimmy Lin, my research was on machine learning in hydrology.
+          I developed neural and non-neural machine learning algorithms to predict streamflow from spatially and temporally distributed input data.
+          A large part of this work was in collaboration with environmental scientists.
+      - layout: left
+        title: Karlsruhe Institute of Technology
+        caption: October 2014 &ndash; September 2017
+        sub_title: Computer Science <br/> (Bachelor's student)
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+          Bachelor's thesis: *Data-Driven Approaches to Predict Material Failure and Analyze Material Models* \\
+          In my thesis, I developed data-driven models to predict failure events of an observed material and compared traditional machine learning approaches with recurrent neural network architectures.
+
+  - title: Work Experience
+    layout: list
+    content:
+      - layout: left
+        title: Google Research
+        link: research.google
+        sub_title: Student Researcher (2022 - 2023) / Visiting Researcher (ongoing)
+        # caption: August 2022 &ndash; ongoing
+        #quote: 
+        description: | # this will include new lines to allow paragraphs
+          I contribute to [Google's Flood Forecasting efforts](https://sites.research.google/floodforecasting/) in the hydrologic modeling team, where we build Deep Learning streamflow prediction models that integrate into an operational end-to-end flood warning system. You can see the system in action at [g.co/floodhub](https://g.co/floodhub).
+          
+      - layout: left
+        title: University of Waterloo
+        sub_title: Research Associate
+        caption: May 2020 &ndash; December 2020
+        link: uwaterloo.ca
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          I developed neural and non-neural machine learning algorithms to predict streamflow from spatially and temporally distributed input data. A large part of this work was in collaboration with environmental scientists.
+          Besides, we worked with domain specialists from the environmental sciences on developing the [Cuizinart](https://tuna.cs.uwaterloo.ca/), a cloud-based interactive platform that allows researchers to "slice and dice" large environmental datasets.
+
+      - layout: left
+        title: Data Systems Lab, University of Waterloo
+        link: cs.uwaterloo.ca
+        sub_title: Graduate Research Assistant
+        caption: January 2019 &ndash; April 2020
+        #quote: 
+        description: | # this will include new lines to allow paragraphs
+          Besides my main research focus on machine learning during my graduate studies, I worked as a graduate research assistant. In collaboration with domain specialists from the environmental sciences, we developed the cloud-based [Cuizinart](https://tuna.cs.uwaterloo.ca/cuizinart) platform that provides access to large environmental datasets. 
+          Also, we worked on solutions for metadata management in the [Global Water Futures](https://gwf.usask.ca/) program.
+          
+      - layout: left
+        title: SAP SuccessFactors
+        link: successfactors.com
+        sub_title: Working student, software engineering
+        caption: August 2014 &ndash; July 2018
+        #quote: 
+        description: | # this will include new lines to allow paragraphs
+          In parallel to my studies in Karlsruhe, I worked part-time as a working student in the cloud HR software development at SAP SuccessFactors.
+          As part of the Rules Engine scrum team, I worked on designing and developing a rules framework that enables users to customize automatic business processes in their HR system.
+          My work involved Java programming as well as data analytics tasks, using Python, Jupyter notebooks, SQL, and Splunk.
+          
+      - layout: left
+        title: SAP SE
+        link: sap.com
+        sub_title: Working student, software engineering
+        caption: May 2014 &ndash; July 2014
+        #quote: 
+        description: | # this will include new lines to allow paragraphs
+          Between high school and university, I did a full-time internship in software development.
+          I designed, developed, and tested on-premise HR software for the SAP ERP solution.
+          My work mostly involved programming in ABAP. Also, I learned about SAP's ERP software and its customizing.
+  
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme
+remote_theme: gauchm/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
