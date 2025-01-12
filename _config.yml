@@ -1,39 +1,39 @@
 # Site
-repository: gauchm/gauchm
+repository: playheng/playheng
 #favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 # Personal info
-name: Martin Gauch
-title: Martin Gauch
+name: Yuan-Heng Wang
+title: Yuan-Heng Wang
 email: "&#103;&#97;&#117;&#99;&#104;&#64;&#109;&#108;&#46;&#106;&#107;&#117;&#46;&#97;&#116;"
 # email_title: Email (Email title override)
 # phone: 
 # phone_title: Phone (Phone title override)
 # website: gauchm.github.io
 # website_title: Web (Website title override)
-description: Researcher at Google
+description: Postdoc at Berkeley Lab
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: martingauch
-mastodon_username: gauchm
-mastodon_servername: sigmoid.social
-github_username:  gauchm
+twitter_username: YuanH_Wang
+#mastodon_username: gauchm
+#mastodon_servername: sigmoid.social
+github_username:  YuanHWang
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: yuanhengwang
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-googlescholar_username: iVbyiMcAAAAJ
+orcid_username: 0000-0002-9360-6639
+googlescholar_username: xUedSUAAAAAJ
 
 # Additional icon links
 # additional_links:
@@ -54,12 +54,11 @@ googlescholar_username: iVbyiMcAAAAJ
 about_title: 
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Martin. I work on the [Flood Forecasting Initiative at Google Research](https://sites.research.google/floodforecasting/) in Switzerland. Previously, I was a PhD student in [Sepp Hochreiter's group](https://ml-jku.github.io/) at Johannes Kepler University, Linz, Austria, a graduate computer science student at the [University of Waterloo](https://uwaterloo.ca), Canada, and an undergraduate student at [Karlsruhe Institute of Technology](https://kit.edu), Germany.
-  
-  My research is at the intersection of machine learning and hydrology. We focus on developing data-driven deep learning techniques for streamflow prediction. Visit our research blog at [neuralhydrology.github.io](https://neuralhydrology.github.io/) for more information on current and recent projects.
+Hello! I’m Yuan-Heng Wang, a passionate hydrologist and data scientist dedicated to advancing the frontiers of hydrology and environmental science through cutting-edge machine learning and physics-informed modeling. Currently, I serve as a Water Data Science Postdoctoral Fellow at Lawrence Berkeley National Laboratory, where my research focuses on large-scale rainfall-runoff modeling and understanding watershed responses to environmental disturbances.
 
+I am also a designated campus collegae from my alma mater. I hold a Ph.D. in Hydrology from the University of Arizona, where I developed innovative approaches to bridge physical-conceptual and machine learning methodologies for hydrological systems modeling. I am a designated campus colleague from my alma mater. My academic journey also includes an M.S. in Hydraulic Engineering and a B.S. in Civil Engineering from National Taiwan University.
 content:
-  - title: Key Publications
+  - title: Publications
     layout: list # Type of content section (list/text)
     description: For a full list of publications, refer to my [Google Scholar profile](https://scholar.google.com/citations?user=iVbyiMcAAAAJ).
     content:
@@ -79,13 +78,13 @@ content:
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          **[HESS Opinions: Never train a Long Short-Term Memory (LSTM) network on a single basin](https://doi.org/10.5194/hess-28-4187-2024)** \\
-          Frederik Kratzert, Martin Gauch, Daniel Klotz, and Grey Nearing. \\
-          _Hydrology and Earth System Sciences_, September 2024.
+          **[Towards Interpretable Physical‐Conceptual Catchment‐Scale Hydrological Modeling Using the Mass‐Conserving‐Perceptron](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR037224)** \\
+          Yuan-Heng Wang and Hoshin V. Gupta. \\
+          _Water Resources Research_, October 2024.
 
-          **[Global Prediction of Extreme Floods in Ungauged Watersheds](https://www.nature.com/articles/s41586-024-07145-1)** \\
-          Grey Nearing, Deborah Cohen, Vusumuzi Dube, Martin Gauch, Oren Gilon, Shaun Harrigan, Avinatan Hassidim, Daniel Klotz, Frederik Kratzert, Asher Metzger, Sella Nevo, Florian Pappenberger, Christel Prudhomme, Guy Shalev, Shlomo Shenzis, Tadele Tekalign, Dana Weitzner, and Yossi Matias. \\
-          _Nature_, March 2024.
+          **[A Mass-Conserving-Perceptron for Machine-Learning-Based Modeling of Geoscientific Systems](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023WR036461)** \\
+          Yuan-Heng Wang and Hoshin V. Gupta. \\
+          _Water Resources Research_, April 2024.
   
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
