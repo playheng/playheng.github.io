@@ -60,7 +60,7 @@ I am also a designated campus collegae from my alma mater. I hold a Ph.D. in Hyd
 content:
   - title: Publications
     layout: list # Type of content section (list/text)
-    description: For a full list of publications, refer to my [Google Scholar profile](https://scholar.google.com/citations?user=iVbyiMcAAAAJ).
+    #description: For a full list of publications, refer to my [Google Scholar profile](https://scholar.google.com/citations?user=iVbyiMcAAAAJ).
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
