@@ -304,7 +304,7 @@ footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme
-remote_theme: gauchm/modern-resume-theme
+remote_theme: playheng/modern-resume-theme
 
 sass:
   sass_dir: _sass
